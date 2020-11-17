@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react";
 
-import SagasExample from './components/sagas-example/sagas-example.component';
+import SagasExample from "./components/sagas-example/sagas-example.component";
 
-import './App.css';
+import "./App.css";
 
-const App = props => {
+const App = (props) => {
   return (
-    <div className='App'>
+    <div className="App">
       <SagasExample />
     </div>
   );

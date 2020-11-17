@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
-import Card from '../card/card.component';
+import Card from "../card/card.component";
 
-import useFetch from '../../effects/use-fetch.effect';
+import useFetch from "../../effects/use-fetch.effect";
 
 const Post = ({ postId }) => {
   const post = useFetch(
